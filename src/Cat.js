@@ -21,10 +21,12 @@ function Cat({cats}) {
                 />
               </p>
               <p className="desc"> My energy level is {cat.energy_level} </p>
+              <p className="desc"> My child friendly level is {cat.child_friendly} </p>
               <p className="desc"> I'm {cat.dog_friendly >= 5 ? "VERYY" : "a little"} dog friendly too! </p>
               <p className="desc">
               <span className="heading"> About Me:   </span> 
                 {cat.description}</p>
+                <a href={cat.wikipedia_url} className="link"> Find more info</a>
             </div>
           )
         })}

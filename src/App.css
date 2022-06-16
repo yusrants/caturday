@@ -60,11 +60,11 @@ button
 
 .card
 {
-  width: 25%;
-  margin: 3%;
+  width: 30%;
+  margin: 2%;
   border: 1px solid #e0e0e0;
   border-radius: 15px;
-  padding: 2%;
+  padding: 1.5%;
   box-shadow: 2px 2px 2px grey;
   background-color: rgba(26, 26, 26, 0.916);
 }
@@ -84,5 +84,17 @@ button
 }
 .desc
 {
-  font-size: medium;
+  font-size: small;
+}
+.link{
+  text-decoration: none;
+  color: antiquewhite;
+  border: 1px solid #e0e0e0;
+  padding: 3%;
+  border-radius: 50px;
+  font-size: 80%;
+}
+.link:hover{
+  background-color:beige;
+  color: #282c34;
 }
