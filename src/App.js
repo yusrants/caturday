@@ -40,7 +40,7 @@ function App() {
         </p> 
         </>
         }
-        <button className="main-button" onClick={showCats}> { !show ? "Find out all about cats" : "Hide all cat breeds"} </button>
+        <button className="main-button" onClick={showCats}> { !show ? "Find out all about cats" : "Go back"} </button>
         {show && <Cat cats={cats}/>}
     </div>
   );
