@@ -1,6 +1,6 @@
 # CATURDAY
 Caturday is a single page web application that gives you all the required info about almost ALL OF THE CATS breeds there are!
-Any important info like the origin country, complete cat description and where the cat should be... Try and have a good caturday!
+Any important info like the origin country, complete cat description... Try and have a good caturday!
 ## How to run the project
 ### 1. `npm install`
 
